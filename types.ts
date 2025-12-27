@@ -1,0 +1,27 @@
+
+export interface Project {
+  id: string;
+  title: string;
+  description: string;
+  tags: string[];
+  imageUrl: string;
+  link?: string;
+}
+
+export interface Skill {
+  name: string;
+  level: number;
+  category: 'Frontend' | 'Backend' | 'Cloud' | 'AI';
+}
+
+export interface Experience {
+  company: string;
+  role: string;
+  period: string;
+  description: string[];
+}
+
+export interface ChatMessage {
+  role: 'user' | 'assistant';
+  text: string;
+}

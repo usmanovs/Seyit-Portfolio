@@ -1,0 +1,7 @@
+{
+  "name": "Seyitbek Usmanov Portfolio",
+  "description": "A high-end, AI-powered professional portfolio for Seyitbek Usmanov, featuring interactive components, skill visualizations, and a Gemini-powered personal assistant.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
